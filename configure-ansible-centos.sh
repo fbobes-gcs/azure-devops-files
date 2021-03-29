@@ -7,7 +7,7 @@ sudo yum update -y
 sudo yum install -y python3-pip
 
 # Upgrade setuptools
-pip3 install -U pip setuptools --user
+sudo pip3 install -U pip setuptools
 
 # Install Ansible.
 pip3 install ansible[azure] --user
